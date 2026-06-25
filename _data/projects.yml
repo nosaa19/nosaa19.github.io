@@ -2,12 +2,12 @@
   event: E.Tel Communications
   date: "2024 – Present"
   page-name: project
-  external_link: https://app.coffeemobile.au
+  external_link: https://www.coffeemobile.au
   id: 1
   summary: >-
-    Australia's only mobile plan that comes with free coffee. Led the full-stack development
-    of this innovative product for the Australian market, built with Python (FastAPI), Vue.js,
-    and the Quasar Framework.
+    Australia's only mobile plan that comes with free coffee. No lock-in contracts, no speed caps,
+    powered by Optus 4G Plus, with coffee vouchers that support local cafés. Built full-stack with
+    Python (FastAPI), Vue.js, and Quasar Framework.
 
 - title: Travel eSIM
   event: E.Tel Communications
@@ -16,6 +16,6 @@
   external_link: https://apply.etel.com.au/travelesim
   id: 2
   summary: >-
-    Travel eSIM with affordable international data for travellers. Designed and implemented
-    the full-stack solution following Agile development practices, utilising PostgreSQL,
-    Python (FastAPI), and Vue.js with Quasar Framework.
+    International data eSIM covering 200+ countries and regions — no physical SIM needed.
+    Instant global connectivity for travellers. Built full-stack with Python (FastAPI),
+    PostgreSQL, Vue.js, and Quasar Framework.

@@ -1,40 +1,66 @@
 <h2>About</h2>
 <div class="container" id="about">
   <div class="card">
-    <div class="card-body">
-      <div class="row">
-        {% for item in site.data.about %}
-        <div class="col-xs text-center">
-          <p><b>Full Name:</b> {{item.name}}</p>
-          <p><b>E-mail:</b> {{item.email}}</p>
-          {% if item.funfact %}<p><b>Fun Fact:</b> {{item.funfact}}</p>{% endif %}
-        </div>
-
-        <div class="col-xl text-center">
-          <h3><strong>Hello there!</strong></h3>
-          <p class="name">&ensp;{{item.bio1}}</p>
+    <div class="card-body about-card-body">
+      {% for item in site.data.about %}
+      <div class="about-bio text-center">
+        <p class="bio-text">{{ item.bio1 }}</p>
+        <div class="about-meta">
+          <span><b>{{ item.name }}</b></span>
+          <span class="meta-sep">·</span>
+          <span>{{ item.email }}</span>
+          {% if item.funfact %}
+          <span class="meta-sep">·</span>
+          <span>{{ item.funfact }}</span>
+          {% endif %}
         </div>
       </div>
-      <br />
-      <div class="row text-center">
-        <div class="col-xs">
+      <div class="row text-center mt-4">
+        <div class="col-md-6 col-12 mb-3">
           <img
-            id = "github_languages"
+            id="github_languages"
             alt="Most used languages on GitHub"
             class="img-fluid"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ site.social.github_username }}&langs_count=4&theme=default"
           />
         </div>
-        <div class="col-xl">
+        <div class="col-md-6 col-12 mb-3">
           <img
-            id = "github_stats"
+            id="github_stats"
             alt="GitHub statistics (Total Stars, Total Commits, Total PRs, Total Issues, Contributed to)"
             class="img-fluid"
             src="https://github-readme-stats.vercel.app/api?username={{ site.social.github_username }}&show_icons=true&theme=default"
           />
         </div>
       </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </div>
+
+<style>
+  .about-card-body {
+    width: 100%;
+    padding: 24px;
+  }
+  .about-bio {
+    padding: 0 20px;
+  }
+  .bio-text {
+    font-size: 1.05em;
+    line-height: 1.9;
+    max-width: 680px;
+    margin: 0 auto 16px;
+    opacity: 0.9;
+    text-align: center;
+  }
+  .about-meta {
+    font-size: 0.88em;
+    opacity: 0.65;
+    margin-top: 6px;
+    text-align: center;
+  }
+  .meta-sep {
+    margin: 0 10px;
+  }
+</style>

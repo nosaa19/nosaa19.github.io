@@ -1,51 +1,42 @@
 <header class="nav-bar">
-    <nav class="navbar navbar-expand-xl navbar-light">
-      
-        <a class="navbar-brand" href="{{ '/' | relative_url }}" style="display:flex; align-items:center; gap:10px;">
-            <div class="nav-logo">
-                <img src="./assets/img/github-propic.svg" alt="{{ site.title }}" />
-            </div>
-            <span style="font-weight:700; font-size:1.1rem; letter-spacing:0.5px;">nosaa19</span>
-        </a>
-      <button class="navbar-toggler navbar-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/research">Research</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact Me</a>
-          </li>
-        </ul>
-        
+  <nav class="navbar navbar-expand-xl navbar-light">
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">
+      <div class="nav-logo">
+        <img src="{{ '/assets/img/github-propic.svg' | relative_url }}" alt="{{ site.title }}" />
       </div>
-      <div class="switch">
-        <input type="checkbox" class="switch__input ml-5 mt-5" id="Switch">
-        <label class="switch__label" for="Switch">
-            <span class="switch__indicator"></span>
-            <span class="switch__decoration"></span>
-        </label>
+      <span class="brand-text">nosaa19</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/research">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+    <div class="switch">
+      <input type="checkbox" class="switch__input ml-5 mt-5" id="Switch">
+      <label class="switch__label" for="Switch">
+        <span class="switch__indicator"></span>
+        <span class="switch__decoration"></span>
+      </label>
     </div>
   </nav>
-
-    
-    </div>
-
-
-
-    </div>
 </header>

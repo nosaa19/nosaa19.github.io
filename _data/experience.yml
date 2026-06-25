@@ -3,6 +3,7 @@
   dates: June 2024 – Present
   location: Australia (Remote)
   logo: etel.svg
+  summary: "Built Coffee Mobile and Travel eSIM for the Australian market using Python, FastAPI, Vue.js, and Quasar Framework."
   highlights:
     - Member of the Main IT Team; led development of two new products for the Australian market — Coffee Mobile (app.coffeemobile.au) and Travel eSIM (apply.etel.com.au/travelesim).
     - Designed and implemented dynamic full-stack solutions using Python (FastAPI), MySQL, PostgreSQL, and Vue.js with Quasar Framework.
@@ -13,6 +14,7 @@
   dates: June 2022 – May 2024
   location: Jakarta, Indonesia
   logo: tokopedia.svg
+  summary: "Built competitive price recommendation engines using LLM models (70–80% accuracy gain); designed distributed systems with NSQ, gRPC, and Elasticsearch at scale."
   highlights:
     - Part of the Catalog and Price Recommendation team; built competitive price suggestion engines across major Indonesian marketplaces.
     - Designed end-to-end distributed systems leveraging NSQ, gRPC, Elasticsearch, and Redis — achieving near-100% service endpoint success rate.
@@ -24,6 +26,7 @@
   dates: October 2020 – May 2022
   location: Taiwan
   logo: innova.svg
+  summary: "Engineered enterprise healthcare platform integrating DICOM and HL7, improving interoperability across 25+ hospital systems in the U.S."
   highlights:
     - Part of R&D for Change Healthcare U.S.; engineered a robust enterprise healthcare platform integrating DICOM and HL7 standards.
     - Streamlined digital imaging and medical information exchange, enhancing interoperability across 25+ hospital systems.
@@ -33,5 +36,6 @@
   dates: August 2016 – June 2018
   location: Jakarta, Indonesia
   logo: besmart.svg
+  summary: "Delivered client-centric software solutions across banking and manufacturing sectors."
   highlights:
     - Delivered client-centric solutions across diverse sectors including banking and manufacturing.

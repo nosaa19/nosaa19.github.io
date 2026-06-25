@@ -6,7 +6,6 @@ baseurl: "/"
 url: "/nosaa19.github.io"
 # You only need to define your social links here and no need to edit the footer.html
 social:
-  twitter_username: _
   github_username:  nosaa19
   linkedin_username: naufal.said
 

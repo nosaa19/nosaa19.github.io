@@ -10,7 +10,9 @@
         <div class="info">
           <p class="title text-center">{{ item.course }}</p>
           <p class="location text-center">{{ item.institute }}</p>
+          {% if item.location %}<p class="location text-center" style="font-size:0.85em; opacity:0.7;">{{ item.location }}</p>{% endif %}
           <p class="dates text-center">{{ item.dates }}</p>
+          {% if item.note %}<p class="dates text-center" style="font-style:italic;">{{ item.note }}</p>{% endif %}
         </div>
       </div>
     </div>

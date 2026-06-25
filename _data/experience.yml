@@ -3,21 +3,35 @@
   dates: June 2024 – Present
   location: Australia (Remote)
   logo: etel.svg
+  highlights:
+    - Member of the Main IT Team; led development of two new products for the Australian market — Coffee Mobile (app.coffeemobile.au) and Travel eSIM (apply.etel.com.au/travelesim).
+    - Designed and implemented dynamic full-stack solutions using Python (FastAPI), MySQL, PostgreSQL, and Vue.js with Quasar Framework.
+    - Contributed to system scalability, reliability, and user experience using modern Agile practices.
 
 - role: Senior Software Engineer
   company: PT. Tokopedia
   dates: June 2022 – May 2024
-  location: Jakarta
+  location: Jakarta, Indonesia
   logo: tokopedia.svg
+  highlights:
+    - Part of the Catalog and Price Recommendation team; built competitive price suggestion engines across major Indonesian marketplaces.
+    - Designed end-to-end distributed systems leveraging NSQ, gRPC, Elasticsearch, and Redis — achieving near-100% service endpoint success rate.
+    - Developed automated data mining and recommendation engines using LLM models, improving accuracy by 70–80% per product category.
+    - Mentored junior engineers and led daily team progress reporting.
 
 - role: Software Engineer
   company: Innova Solution Taiwan, Ltd
   dates: October 2020 – May 2022
   location: Taiwan
   logo: innova.svg
+  highlights:
+    - Part of R&D for Change Healthcare U.S.; engineered a robust enterprise healthcare platform integrating DICOM and HL7 standards.
+    - Streamlined digital imaging and medical information exchange, enhancing interoperability across 25+ hospital systems.
 
 - role: Software Engineer
   company: PT. Besmart Global Indonesia
   dates: August 2016 – June 2018
-  location: Jakarta
+  location: Jakarta, Indonesia
   logo: besmart.svg
+  highlights:
+    - Delivered client-centric solutions across diverse sectors including banking and manufacturing.

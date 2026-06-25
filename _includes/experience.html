@@ -1,19 +1,48 @@
 <h2>Work Experience</h2>
 <div class="container" id="experience">
-  <div class="row">
-    {% for item in site.data.experience %}
-    <div class="col">
-      <div class="card transform">
-        <div class="icon">
-          <img src="./assets/img/experience/{{ item.logo }}" alt="{{ item.company }} logo"/>
-        </div>
-        <div class="info">
-          <p class="title text-center">{{ item.role }}</p>
-          <p class="location text-center">{{ item.company }}</p>
-          <p class="dates text-center">{{ item.dates }}</p>
-        </div>
-      </div>
-      {% endfor %}
+  {% for item in site.data.experience %}
+  <div class="card experience-card transform">
+    <div class="icon">
+      <img src="./assets/img/experience/{{ item.logo }}" alt="{{ item.company }} logo"/>
+    </div>
+    <div class="info" style="flex:1;">
+      <p class="title">{{ item.role }}</p>
+      <p class="location">{{ item.company }} &mdash; {{ item.location }}</p>
+      <p class="dates">{{ item.dates }}</p>
+      {% if item.highlights %}
+      <ul class="highlights">
+        {% for point in item.highlights %}
+        <li>{{ point }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </div>
   </div>
+  {% endfor %}
 </div>
+
+<style>
+  .experience-card {
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 16px 0;
+  }
+  .experience-card .icon {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 4px;
+  }
+  .highlights {
+    margin-top: 10px;
+    padding-left: 18px;
+    font-size: 0.88em;
+    color: var(--text-color);
+    opacity: 0.85;
+  }
+  .highlights li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+  }
+</style>

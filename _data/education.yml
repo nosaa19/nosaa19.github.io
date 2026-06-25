@@ -1,10 +1,12 @@
-- course: BSc Computer Science
-  institute: University of Birmingham
-  dates: 2018 - 2021
-  logo: uob.png
-  
-- course: Pre Fellowship Fellow
-  institute: MLH Fellowship
-  dates: Summer 2021
-  logo: fellowship.svg
-  
+- course: Bachelor of Informatics
+  institute: Universitas Brawijaya
+  location: Malang, Indonesia
+  dates: "2016"
+  logo: ub.svg
+
+- course: Master of Science in Computer Science
+  institute: National Central University
+  location: Taiwan
+  dates: 2018 – 2020
+  logo: ncu.svg
+  note: Awarded full scholarship for 2 years

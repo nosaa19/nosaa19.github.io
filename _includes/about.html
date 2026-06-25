@@ -6,9 +6,8 @@
         {% for item in site.data.about %}
         <div class="col-xs text-center">
           <p><b>Full Name:</b> {{item.name}}</p>
-          <p><b>Contact:</b> {{item.number}}</p>
           <p><b>E-mail:</b> {{item.email}}</p>
-          <p><b>Fun Fact:</b> {{item.funfact}}</p>
+          {% if item.funfact %}<p><b>Fun Fact:</b> {{item.funfact}}</p>{% endif %}
         </div>
 
         <div class="col-xl text-center">

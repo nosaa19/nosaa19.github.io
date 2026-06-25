@@ -1,5 +1,8 @@
-- name: Will Russell
-  number: +213 33433
-  email: youremail@gmail.com
-  funfact: I love coffee!
-  bio1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodales sapien nec faucibus egestas. In porta mattis tristique. Phasellus aliquam euismod mauris. Proin aliquam ligula eu erat ornare, quis aliquam ante egestas. Vestibulum congue, dui eu rutrum dictum, diam turpis suscipit libero, sit amet euismod risus libero vel ligula. Vivamus efficitur at arcu vel eleifend.
+- name: Naufal Said
+  email: naufal.said19@gmail.com
+  bio1: >-
+    Software engineer with over 6 years of expertise in crafting cutting-edge solutions.
+    A specialist in microservice architecture and development, I thrive on unraveling complex
+    challenges through a combination of data mining and insightful data analysis. With a robust
+    foundation in leadership, critical thinking, and problem-solving, I am ready to be your
+    go-to professional for navigating the intricacies of modern software development.

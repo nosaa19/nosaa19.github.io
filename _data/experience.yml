@@ -1,4 +1,23 @@
-- role: Pre Fellowship Fellow
-  company: MLH Fellowship
-  dates: Summer 2021
-  logo: fellowship.svg
+- role: Senior Software Engineer
+  company: E.Tel Communications Pty Ltd
+  dates: June 2024 – Present
+  location: Australia (Remote)
+  logo: etel.svg
+
+- role: Senior Software Engineer
+  company: PT. Tokopedia
+  dates: June 2022 – May 2024
+  location: Jakarta
+  logo: tokopedia.svg
+
+- role: Software Engineer
+  company: Innova Solution Taiwan, Ltd
+  dates: October 2020 – May 2022
+  location: Taiwan
+  logo: innova.svg
+
+- role: Software Engineer
+  company: PT. Besmart Global Indonesia
+  dates: August 2016 – June 2018
+  location: Jakarta
+  logo: besmart.svg
